@@ -1,0 +1,40 @@
+h1 {
+    color:red;
+}
+a {
+    color: #ff0000;
+  }
+  
+  a:link {
+    color: #0000ff;
+  }
+  
+  a:visited {
+    color:slateblue;
+  }
+  
+  a:active {
+    color: #00ffff;
+  }
+  
+  a:hover {
+    color:purple;
+  }   
+  #info {
+    font-style: italic;
+  }
+  .Requirements {
+    color:firebrick;
+  }
+  .important {
+    color:#ff0000;
+  }
+  .sequenceinfo {
+    font-style: italic;
+  }
+  .classinfo {
+    font-style: oblique;
+  }
+  #levelclasses {
+    background-color:antiquewhite;
+  }
