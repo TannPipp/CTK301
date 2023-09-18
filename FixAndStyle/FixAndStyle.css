@@ -1,0 +1,44 @@
+h1 {
+    color:white;
+}
+a:link {
+    color:green;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+#title {
+    background-color:#99aaff;
+}
+#Fires {
+    color:blue;
+}
+.doctor {
+    color:orange;
+    font-weight: bold;
+}
+#Inferno {
+    background-color: yellow;
+}
+.red { 
+    color:red;
+}
+#Father {
+    color:yellow;
+    background-color: green;
+}
+.Art {
+    background-color:#90ee90;
+}
+#Planet {
+    background-color: yellow;
+}
+h5 {
+    color: red;
+}
+.Storm {
+    color: blue;
+    font-weight: bold;
+}
