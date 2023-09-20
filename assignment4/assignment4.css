@@ -1,0 +1,76 @@
+* {
+  color:white
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(IMG_0672.jpg);
+}
+.textcenter {
+  text-align: center;
+}
+.textjustify {
+  text-align: justify;
+}
+h1 {
+    color:orange;
+    font-style: italic;
+    font-weight: normal;
+}
+h2 {
+  color:orange;
+  font-style: italic;
+  font-weight: normal;
+}
+h3 {
+  color:orange;
+  font-style: italic;
+  font-weight: normal;
+}
+h4 {
+  color:orange;
+  font-style: italic;
+  font-weight: normal;
+}
+.imgbox {
+  border: 10px solid black;
+  background-color: yellow;
+  padding: 5px
+}
+a {
+    color: #ff0000;
+  }
+  
+  a:link {
+    color: #0000ff;
+  }
+  
+  a:visited {
+    color:slateblue;
+  }
+  
+  a:active {
+    color: #00ffff;
+  }
+  
+  a:hover {
+    color:purple;
+  }   
+  #info {
+    font-style: italic;
+  }
+  .Requirements {
+    color:firebrick;
+  }
+  .important {
+    color:#ff0000;
+  }
+  .sequenceinfo {
+    font-style: italic;
+  }
+  .classinfo {
+    font-style: oblique;
+    color: black;
+  }
+  #levelclasses {
+    background-color:antiquewhite;
+  }
