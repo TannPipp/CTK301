@@ -1,0 +1,116 @@
+body {
+    background-color: grey;
+}
+#wrapper {
+    margin: 1em auto;
+    padding: 0;
+    width: 960px;
+    border: 5px solid #00479f;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+header {
+    grid-column: span 6;
+    background-color:rgb(30, 144, 255);
+    padding: 10px;
+    font-family: Helvetica;
+    font-weight: normal ;
+    background-image: linear-gradient(rgb(30, 144, 255),rgb(0, 71, 159));
+}
+
+nav {
+    grid-column: span 6;
+}
+main {
+    grid-column: span 4;
+}
+main h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color:#00479f
+}
+h2 {
+    border-bottom: 2px solid rgb(0, 71, 159);
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+    margin: 5px;
+    font-weight: bold;
+}
+nav ul {
+    list-style-type:none;
+    margin: 0px;
+    padding: 0px;
+  }
+nav li {
+        border: 1px solid #00479f;
+        width: 238.3px;
+        padding: 0px;
+        margin: 0px;
+        background-color:darkblue;
+        display: inline-block;
+        text-align: left;
+  }
+  
+  nav li a {
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    background-image: linear-gradient(rgb(30, 144, 255),rgb(0, 71, 159));
+    padding: 10px;
+    border: 2px solid #00479f;
+    color: #6acffc;
+    text-decoration: none;
+  }
+  nav li a:hover {
+    color:white;
+  }
+  main img {
+    float:right;
+    border: 2px solid #00479f;
+    padding: 0px;
+    margin:10px;
+  }
+  footer {
+    border-top: 5px solid #00479f ;
+    background-color: #d01d00;
+    grid-column: span 6;
+  }
+  main {
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+    padding: 10px;
+  }
+  main p {
+    margin: 10px;
+    font-weight: normal;
+    text-align: justify;
+  }
+  aside {
+    text-align: justify;
+    padding: 20px;
+    background-color: #add8e6;
+    font-weight: normal;
+    grid-column: span 2;
+  }
+
+  main a {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+  }
+main a:hover {
+        color:blue;
+        text-decoration: underline;
+    }
+span {
+   font-weight: bold; 
+}
+header a {
+  text-decoration: none;
+  color: #6acffc;
+  font-weight: normal;
+  font-style: italic;
+}
+header a:hover {
+color: white;
+}
