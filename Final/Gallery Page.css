@@ -127,6 +127,11 @@ aside p {
   margin: 10px;
   font-size: 24px;
 }
+aside img {
+  height: 250px;
+  text-align: justify;
+  margin-left: 4px;
+}
 
 footer {
   background-color: #59CDFF;
